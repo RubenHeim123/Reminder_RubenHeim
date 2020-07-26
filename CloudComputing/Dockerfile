@@ -6,4 +6,4 @@ COPY requirments.txt requirments.txt
 RUN pip install -r requirments.txt
 EXPOSE 5000
 COPY . .
-CMD ["python", "run"]
+CMD ["flask", "run"]
